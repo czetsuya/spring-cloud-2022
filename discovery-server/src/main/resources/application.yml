@@ -1,0 +1,22 @@
+logging:
+  level:
+    root: info
+    com.netflix.eureka: debug
+    com.netflix.discovery: debug
+
+spring:
+  application:
+    name: discovery-server
+
+server:
+  port: 8761
+
+eureka:
+  server:
+    enable-self-preservation: true
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+#  instance:
+#    appname: eureka
+#    prefer-ip-address: true
