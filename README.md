@@ -8,11 +8,11 @@ This module depends on **spring-cloud-config-server** and connects with a git re
 
 `discovery-server`
 
-This module depends on **spring-cloud-starter-netflix-eureka-server** where other services can register and be look up.
+This module depends on **spring-cloud-starter-netflix-eureka-server** where other services can register and be looked up.
 
 `api-gateway`
 
-This module depends on **spring-cloud-starter-gateway**. It is the gateway for all the incoming requests and make the
+This module depends on **spring-cloud-starter-gateway**. It is the gateway for all incoming requests and makes the
 necessary load balance forwarding to the actual service implementation.
 
 `mail-services`
@@ -20,7 +20,7 @@ necessary load balance forwarding to the actual service implementation.
 This module depends on **spring-cloud-starter-config** to connect to the config server and 
 **spring-cloud-starter-netflix-eureka-client** to register to the Eureka naming server.
 
-It also depends on webflux for providing a REST endpoint.
+It also depends on Webflux for providing a REST endpoint.
 
 # Before you Run
 
